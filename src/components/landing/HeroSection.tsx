@@ -12,7 +12,7 @@ const HeroSection = () => {
             The insight hub for your
             <br className="hidden sm:block" />
             in-house experts
-            <span className="text-[#2f5cc8]">.</span>
+            <span className="text-[#5000ff]">.</span>
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white lg:mx-0">
             Vantage houses insight-led content for your internal experts, with
@@ -20,13 +20,13 @@ const HeroSection = () => {
           </p>
 
           <div className="mt-6 flex flex-wrap items-center justify-center gap-3 md:flex-nowrap lg:justify-start">
-            <span className="whitespace-nowrap rounded-full bg-[#4f1dff] px-7 py-3 text-[1.02rem] font-medium text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.22)]">
+            <span className="whitespace-nowrap rounded-full bg-[#5000ff] px-7 py-3 text-[1.02rem] font-medium text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.22)]">
               Launch in weeks
             </span>
-            <span className="whitespace-nowrap rounded-full bg-[#4f1dff] px-7 py-3 text-[1.02rem] font-medium text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.22)]">
+            <span className="whitespace-nowrap rounded-full bg-[#5000ff] px-7 py-3 text-[1.02rem] font-medium text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.22)]">
               Publish consistently
             </span>
-            <span className="whitespace-nowrap rounded-full bg-[#4f1dff] px-7 py-3 text-[1.02rem] font-medium text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.22)]">
+            <span className="whitespace-nowrap rounded-full bg-[#5000ff] px-7 py-3 text-[1.02rem] font-medium text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.22)]">
               Own your audience
             </span>
           </div>
@@ -89,3 +89,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
