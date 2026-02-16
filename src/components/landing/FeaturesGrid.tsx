@@ -31,7 +31,23 @@ const FeaturesGrid = () => {
   return (
     <section id="features" className="bg-section-alt py-20">
       <div className="container">
-        <h2 className="text-center text-2xl font-bold text-foreground md:text-3xl">
+        <div className="mx-auto max-w-4xl rounded-lg border border-border/80 bg-background p-4 sm:p-5">
+          <p className="text-center text-xs font-semibold uppercase tracking-[0.08em] text-muted-foreground">
+            Placeholder logo strip
+          </p>
+          <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-4">
+            {["Law firm", "Accountancy", "Consultancy", "B2B Services"].map((item) => (
+              <div
+                key={item}
+                className="rounded-md border border-dashed border-border bg-section-alt/60 px-3 py-2 text-center text-xs text-muted-foreground"
+              >
+                {item} logo
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <h2 className="mt-12 text-center text-2xl font-bold text-foreground md:text-3xl">
           Your experts' insights are your strongest growth lever.
           <br className="hidden sm:block" />
           <span className="text-primary"> Vantage unlocks them.</span>

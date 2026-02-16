@@ -42,6 +42,23 @@ const ServicesGrid = () => {
           </p>
         </div>
 
+        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {[
+            "Article layout placeholder",
+            "Newsletter preview placeholder",
+            "Video module placeholder",
+            "Media mention placeholder",
+          ].map((item) => (
+            <div
+              key={item}
+              className="rounded-lg border border-border/80 bg-background p-3"
+            >
+              <div className="aspect-[16/10] rounded-md border border-dashed border-border bg-section-alt/60" />
+              <p className="mt-2 text-xs text-muted-foreground">{item}</p>
+            </div>
+          ))}
+        </div>
+
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {services.map((s) => (
             <div
