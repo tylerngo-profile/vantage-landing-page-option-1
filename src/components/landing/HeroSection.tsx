@@ -8,7 +8,7 @@ const HeroSection = () => {
           <p className="text-sm font-semibold uppercase tracking-[0.08em] text-white/70">
             Insight-led platform for in-house experts
           </p>
-          <h1 className="mt-4 text-4xl font-semibold leading-[1.12] tracking-[-0.02em] text-white md:text-[3.1rem] lg:text-[4.2rem]">
+          <h1 className="mt-4 text-[2.45rem] font-bold leading-[1.15] tracking-[-0.012em] text-white md:text-[2.95rem] lg:text-[3.45rem]">
             The insight hub for your
             <br className="hidden sm:block" />
             in-house experts
