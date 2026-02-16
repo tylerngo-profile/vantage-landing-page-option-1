@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
   return (
-    <section className="border-b border-[#0f1b57] bg-[#040b3d] py-16 text-white md:py-24">
+    <section className="border-b border-[#0f1b57] bg-[#090e2c] py-16 text-white md:py-24">
       <div className="container grid items-center gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:gap-12">
         <div className="text-center lg:text-left">
           <p className="text-sm font-semibold uppercase tracking-[0.08em] text-white">
