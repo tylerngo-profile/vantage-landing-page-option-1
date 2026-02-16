@@ -2,8 +2,19 @@ import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
   return (
-    <section className="border-b border-[#0f1b57] bg-[#090e2c] py-16 text-white md:py-24">
-      <div className="container grid items-center gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:gap-12">
+    <section className="relative overflow-hidden border-b border-[#0f1b57] bg-[#090e2c] py-16 text-white md:py-24">
+      {/* subtle branded background motif */}
+      <div className="pointer-events-none absolute inset-0">
+        <img
+          src="/images/vantage-logomark-white.svg"
+          alt=""
+          aria-hidden="true"
+          className="absolute -right-36 top-1/2 w-[760px] -translate-y-1/2 opacity-[0.12] md:-right-24 md:w-[900px]"
+        />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_75%_45%,rgba(80,0,255,0.10),transparent_42%)]" />
+      </div>
+
+      <div className="container relative z-10 grid items-center gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:gap-12">
         <div className="text-center lg:text-left">
           <p className="text-sm font-semibold uppercase tracking-[0.08em] text-white">
             Insight-led platform for in-house experts
@@ -84,9 +95,24 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
+
+      {/* subtle brand lockup */}
+      <div className="pointer-events-none absolute bottom-7 right-8 hidden items-end gap-3 opacity-75 md:flex">
+        <img
+          src="/images/vantage-logomark-purple.svg"
+          alt=""
+          aria-hidden="true"
+          className="h-12 w-12"
+        />
+        <img
+          src="/images/vantage-logo-light.svg"
+          alt=""
+          aria-hidden="true"
+          className="h-10 w-auto"
+        />
+      </div>
     </section>
   );
 };
 
 export default HeroSection;
-
