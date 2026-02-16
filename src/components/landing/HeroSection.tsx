@@ -44,7 +44,7 @@ const HeroSection = () => {
           </div>
 
           <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row lg:justify-start">
-            <Button size="lg" className="bg-white text-[#1e2f7a] hover:bg-white/90">
+            <Button size="lg" className="bg-white text-[#5000ff] hover:bg-white/90">
               Book a demo
             </Button>
             <Button
