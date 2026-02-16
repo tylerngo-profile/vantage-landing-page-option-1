@@ -19,7 +19,7 @@ const ConversionDesign = () => {
   return (
     <section className="bg-background py-20">
       <div className="container grid items-start gap-12 lg:grid-cols-[1.1fr_0.9fr]">
-        <div>
+        <div className="lg:order-2">
           <h2 className="text-2xl font-bold text-foreground md:text-3xl">
             Simple, brand-lite design engineered for B2B conversion
             <span className="text-[#5000ff]">.</span>
@@ -40,7 +40,7 @@ const ConversionDesign = () => {
           </div>
         </div>
 
-        <aside className="rounded-xl border border-border bg-section-alt/70 p-4 md:p-5">
+        <aside className="rounded-xl border border-border bg-section-alt/70 p-4 md:p-5 lg:order-1">
           <p className="text-xs font-semibold uppercase tracking-[0.08em] text-muted-foreground">
             Experience preview
           </p>
