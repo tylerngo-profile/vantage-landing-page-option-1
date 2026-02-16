@@ -8,8 +8,9 @@ const HeroSection = () => {
           <p className="text-sm font-semibold uppercase tracking-[0.08em] text-primary/80">
             Insight-led platform for in-house experts
           </p>
-          <h1 className="mt-4 text-4xl font-bold leading-tight text-foreground md:text-5xl lg:text-[3.2rem]">
-            The insight hub for your in-house experts.
+          <h1 className="mt-4 text-4xl font-semibold leading-[1.18] tracking-[-0.01em] text-foreground md:text-[3.05rem] lg:text-[3.35rem]">
+            The insight hub for your in-house experts
+            <span className="text-[#2f5cc8]">.</span>
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground lg:mx-0">
             Vantage houses insight-led content for your internal experts, with
@@ -26,8 +27,6 @@ const HeroSection = () => {
               Own your audience
             </span>
           </div>
-
-          <p className="mt-2 text-sm text-muted-foreground">on your domain.</p>
 
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row lg:justify-start">
             <Button size="lg">Book a demo</Button>
