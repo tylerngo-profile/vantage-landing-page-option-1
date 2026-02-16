@@ -96,19 +96,13 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* subtle brand lockup */}
-      <div className="pointer-events-none absolute bottom-7 right-8 hidden items-end gap-3 opacity-75 md:flex">
+      {/* subtle brand icon */}
+      <div className="pointer-events-none absolute bottom-6 right-6 hidden opacity-45 md:block">
         <img
           src="/images/vantage-logomark-purple.svg"
           alt=""
           aria-hidden="true"
-          className="h-12 w-12"
-        />
-        <img
-          src="/images/vantage-logo-light.svg"
-          alt=""
-          aria-hidden="true"
-          className="h-10 w-auto"
+          className="h-8 w-8"
         />
       </div>
     </section>
