@@ -1,3 +1,5 @@
+import { CheckCircle2 } from "lucide-react";
+
 const points = [
   {
     title: "Clear CTAs, frictionless sign-up",
@@ -19,36 +21,30 @@ const points = [
 const ConversionDesign = () => {
   return (
     <section className="bg-background py-20">
-      <div className="container grid items-start gap-12 lg:grid-cols-[1.05fr_0.95fr]">
+      <div className="container grid items-start gap-12 lg:grid-cols-[1.1fr_0.9fr]">
         <div>
           <h2 className="text-2xl font-bold text-foreground md:text-3xl">
             Simple, brand-lite design engineered for B2B conversion
             <span className="text-[#5000ff]">.</span>
           </h2>
 
-          <div className="mt-10 space-y-4">
-            {points.map((p, idx) => (
-              <div
-                key={p.title}
-                className="rounded-lg border border-border/90 bg-card p-5 shadow-[0_1px_0_rgba(15,23,42,0.04)]"
-              >
-                <div className="mb-2 flex items-center gap-3">
-                  <span className="flex h-7 w-7 items-center justify-center rounded-full bg-primary/10 text-xs font-bold text-primary">
-                    {idx + 1}
-                  </span>
-                  <h3 className="text-xl font-semibold text-foreground">
+          <div className="mt-8 space-y-7">
+            {points.map((p) => (
+              <div key={p.title} className="flex items-start gap-4">
+                <CheckCircle2 className="mt-1 h-6 w-6 shrink-0 text-primary" strokeWidth={2} />
+                <div>
+                  <h3 className="text-[1.55rem] font-semibold leading-tight text-foreground">
                     {p.title}
                   </h3>
+                  <p className="mt-2 text-[1.08rem] leading-relaxed text-muted-foreground">
+                    {p.description}
+                  </p>
                 </div>
-                <p className="text-base leading-relaxed text-muted-foreground">
-                  {p.description}
-                </p>
               </div>
             ))}
           </div>
         </div>
 
-        {/* Visual demo mockup block */}
         <aside className="rounded-xl border border-border bg-section-alt/70 p-4 md:p-5">
           <p className="text-xs font-semibold uppercase tracking-[0.08em] text-muted-foreground">
             Experience preview
