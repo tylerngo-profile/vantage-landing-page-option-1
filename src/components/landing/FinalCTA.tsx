@@ -19,9 +19,9 @@ const FinalCTA = () => {
             Book a demo
           </Button>
           <Button
-            variant="outline"
+            variant="ghost"
             size="lg"
-            className="border-primary-foreground/40 text-primary-foreground hover:bg-primary-foreground/10"
+            className="border border-primary-foreground/40 bg-transparent text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground"
           >
             See an example hub
           </Button>
