@@ -9,9 +9,10 @@ const HeroSection = () => {
           src="/images/vantage-logomark-white.svg"
           alt=""
           aria-hidden="true"
-          className="absolute -bottom-44 -right-44 w-[520px] opacity-[0.08] md:-bottom-52 md:-right-52 md:w-[620px]"
+          className="absolute -right-36 top-1/2 w-[500px] -translate-y-1/2 opacity-[0.13] md:-right-28 md:w-[640px]"
         />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_75%_45%,rgba(80,0,255,0.10),transparent_42%)]" />
+        <div className="absolute right-0 top-1/2 h-[460px] w-[460px] -translate-y-1/2 rounded-full bg-[#5000ff]/[0.10] blur-[110px] md:h-[560px] md:w-[560px]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_82%_48%,rgba(255,255,255,0.05),transparent_42%)]" />
       </div>
 
       <div className="container relative z-10 grid items-center gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:gap-12">
