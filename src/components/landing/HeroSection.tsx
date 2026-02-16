@@ -8,7 +8,7 @@ const HeroSection = () => {
           <p className="text-sm font-semibold uppercase tracking-[0.08em] text-white/70">
             Insight-led platform for in-house experts
           </p>
-          <h1 className="mt-4 text-[2.45rem] font-bold leading-[1.15] tracking-[-0.012em] text-white md:text-[2.95rem] lg:text-[3.45rem]">
+          <h1 className="mt-4 text-[2.1rem] font-semibold leading-[1.16] tracking-[-0.01em] text-white md:text-[2.55rem] lg:text-[2.95rem]">
             The insight hub for your
             <br className="hidden sm:block" />
             in-house experts
@@ -19,14 +19,14 @@ const HeroSection = () => {
             done-for-you creation, newsletter sign-up, and analytics built in.
           </p>
 
-          <div className="mt-6 flex flex-wrap items-center justify-center gap-3 lg:justify-start">
-            <span className="rounded-full bg-[#4f1dff] px-7 py-3 text-[1.05rem] font-semibold text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.22)]">
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-3 md:flex-nowrap lg:justify-start">
+            <span className="whitespace-nowrap rounded-full bg-[#4f1dff] px-7 py-3 text-[1.02rem] font-medium text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.22)]">
               Launch in weeks
             </span>
-            <span className="rounded-full bg-[#4f1dff] px-7 py-3 text-[1.05rem] font-semibold text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.22)]">
+            <span className="whitespace-nowrap rounded-full bg-[#4f1dff] px-7 py-3 text-[1.02rem] font-medium text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.22)]">
               Publish consistently
             </span>
-            <span className="rounded-full bg-[#4f1dff] px-7 py-3 text-[1.05rem] font-semibold text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.22)]">
+            <span className="whitespace-nowrap rounded-full bg-[#4f1dff] px-7 py-3 text-[1.02rem] font-medium text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.22)]">
               Own your audience
             </span>
           </div>
