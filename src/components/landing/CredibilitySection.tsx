@@ -6,7 +6,8 @@ const CredibilitySection = () => {
       <div className="container grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
         <div className="max-w-2xl">
           <h2 className="text-2xl font-bold text-foreground md:text-3xl">
-            Built on a decade of thought leadership know-how.
+            Built on a decade of thought leadership know-how
+            <span className="text-[#5000ff]">.</span>
           </h2>
 
           <div className="mt-6 space-y-4 text-base leading-relaxed text-muted-foreground">

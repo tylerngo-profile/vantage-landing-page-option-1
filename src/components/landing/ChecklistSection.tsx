@@ -11,7 +11,8 @@ const ChecklistSection = () => {
     <section className="bg-background py-20">
       <div className="container max-w-2xl">
         <h2 className="text-2xl font-bold text-foreground md:text-3xl">
-          Consistent executive content, without chasing busy people.
+          Consistent executive content, without chasing busy people
+          <span className="text-[#5000ff]">.</span>
         </h2>
 
         <ul className="mt-10 space-y-5">

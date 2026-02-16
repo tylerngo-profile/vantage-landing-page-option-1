@@ -21,7 +21,8 @@ const ConversionDesign = () => {
     <section className="bg-background py-20">
       <div className="container max-w-3xl">
         <h2 className="text-2xl font-bold text-foreground md:text-3xl">
-          Simple, brand-lite design engineered for B2B conversion.
+          Simple, brand-lite design engineered for B2B conversion
+          <span className="text-[#5000ff]">.</span>
         </h2>
 
         <div className="mt-10 space-y-8">

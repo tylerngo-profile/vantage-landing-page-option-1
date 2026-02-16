@@ -30,7 +30,8 @@ const ProcessTimeline = () => {
     <section id="how-it-works" className="bg-background py-20">
       <div className="container">
         <h2 className="text-center text-2xl font-bold text-foreground md:text-3xl">
-          Live in weeks. Updated forever.
+          Live in weeks<span className="text-[#5000ff]">.</span> Updated forever
+          <span className="text-[#5000ff]">.</span>
         </h2>
 
         <div className="mx-auto mt-14 grid max-w-4xl gap-8 md:grid-cols-2">

@@ -33,8 +33,9 @@ const ServicesGrid = () => {
       <div className="container">
         <div className="max-w-2xl">
           <h2 className="text-2xl font-bold text-foreground md:text-3xl">
-            Written content is just the start. Scale your executive presence
-            when you're ready.
+            Written content is just the start<span className="text-[#5000ff]">.</span> Scale your executive presence
+            when you're ready
+            <span className="text-[#5000ff]">.</span>
           </h2>
           <p className="mt-3 text-base text-muted-foreground">
             Vantage gives you a platform now, plus a team you can plug into
