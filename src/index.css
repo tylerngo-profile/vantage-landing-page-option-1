@@ -1,14 +1,14 @@
 @font-face {
-  font-family: 'Altone';
-  src: url('/fonts/AltoneTrial-Regular.ttf') format('truetype');
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Altone';
-  src: url('/fonts/AltoneTrial-Bold.ttf') format('truetype');
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -103,7 +103,7 @@
 
   body {
     @apply bg-background text-foreground font-sans antialiased;
-    font-family: 'Altone', system-ui, -apple-system, sans-serif;
+    font-family: 'Poppins', system-ui, -apple-system, sans-serif;
   }
 
   h1, h2, h3, h4, h5, h6 {
