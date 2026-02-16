@@ -1,20 +1,17 @@
-import { CheckCircle2 } from "lucide-react";
+import { Check } from "lucide-react";
 
 const points = [
   {
-    title: "Clear CTAs, frictionless sign-up",
-    description:
-      "Turn one-time visits into ongoing subscriber relationships.",
+    lead: "Clear CTAs, frictionless sign-up.",
+    rest: "Turn one-time visits into ongoing subscriber relationships.",
   },
   {
-    title: "No distractions",
-    description:
-      "A clean, expertise-first experience built for professional services and B2B firms.",
+    lead: "No distractions.",
+    rest: "A clean, expertise-first experience built for professional services and B2B firms.",
   },
   {
-    title: "Improves over time",
-    description:
-      "Data-led optimisation based on what your audience actually reads, clicks, and signs up for.",
+    lead: "Improves over time.",
+    rest: "Data-led optimisation based on what your audience actually reads, clicks, and signs up for.",
   },
 ];
 
@@ -30,16 +27,14 @@ const ConversionDesign = () => {
 
           <div className="mt-8 space-y-7">
             {points.map((p) => (
-              <div key={p.title} className="flex items-start gap-4">
-                <CheckCircle2 className="mt-1 h-6 w-6 shrink-0 text-primary" strokeWidth={2} />
-                <div>
-                  <h3 className="text-[1.55rem] font-semibold leading-tight text-foreground">
-                    {p.title}
-                  </h3>
-                  <p className="mt-2 text-[1.08rem] leading-relaxed text-muted-foreground">
-                    {p.description}
-                  </p>
-                </div>
+              <div key={p.lead} className="flex items-start gap-4">
+                <span className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#00c21a]">
+                  <Check className="h-6 w-6 text-white" strokeWidth={3} />
+                </span>
+                <p className="text-[1.08rem] leading-relaxed text-foreground md:text-[1.12rem]">
+                  <span className="font-bold">{p.lead}</span>{" "}
+                  <span className="font-normal text-foreground">{p.rest}</span>
+                </p>
               </div>
             ))}
           </div>
