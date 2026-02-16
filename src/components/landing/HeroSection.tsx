@@ -9,7 +9,7 @@ const HeroSection = () => {
           src="/images/vantage-logomark-white.svg"
           alt=""
           aria-hidden="true"
-          className="absolute -right-36 top-1/2 w-[760px] -translate-y-1/2 opacity-[0.12] md:-right-24 md:w-[900px]"
+          className="absolute -bottom-24 -right-24 w-[520px] opacity-[0.1] md:-bottom-28 md:-right-20 md:w-[620px]"
         />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_75%_45%,rgba(80,0,255,0.10),transparent_42%)]" />
       </div>
@@ -94,16 +94,6 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      {/* subtle brand icon */}
-      <div className="pointer-events-none absolute bottom-6 right-6 hidden opacity-45 md:block">
-        <img
-          src="/images/vantage-logomark-purple.svg"
-          alt=""
-          aria-hidden="true"
-          className="h-8 w-8"
-        />
       </div>
     </section>
   );
