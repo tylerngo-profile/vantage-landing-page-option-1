@@ -41,7 +41,7 @@ const FeaturesGrid = () => {
           {features.map((f) => (
             <div
               key={f.title}
-              className="rounded-lg border bg-card p-6 transition-shadow hover:shadow-sm"
+              className="rounded-lg border border-border/90 bg-card p-6 shadow-[0_1px_0_rgba(15,23,42,0.04)]"
             >
               <f.icon className="h-6 w-6 text-primary" strokeWidth={1.5} />
               <h3 className="mt-4 text-base font-semibold text-foreground">

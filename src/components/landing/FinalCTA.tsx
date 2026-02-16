@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const FinalCTA = () => {
   return (
-    <section className="bg-primary py-16">
+    <section className="bg-[#1f377f] py-16">
       <div className="container text-center">
         <h2 className="text-2xl font-bold text-primary-foreground md:text-3xl">
           Ready to turn expert insight into pipeline?

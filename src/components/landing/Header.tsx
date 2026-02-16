@@ -8,7 +8,7 @@ const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
+    <header className="sticky top-0 z-50 border-b bg-background">
       <div className="container flex h-16 items-center justify-between">
         <a href="#top" className="flex items-center" aria-label="Vantage home">
           <img

@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
   return (
-    <section className="bg-background py-20 md:py-28">
+    <section className="border-b bg-gradient-to-b from-section-alt to-background py-20 md:py-28">
       <div className="container max-w-3xl text-center">
         <h1 className="text-4xl font-bold leading-tight text-foreground md:text-5xl lg:text-[3.25rem]">
           The insight hub for your in-house experts.

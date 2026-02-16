@@ -20,7 +20,7 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 210 33% 99%;
     --foreground: 222 47% 11%;
 
     --card: 0 0% 100%;
@@ -29,30 +29,30 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222 47% 11%;
 
-    --primary: 224 66% 34%;
+    --primary: 223 64% 35%;
     --primary-foreground: 0 0% 100%;
 
-    --primary-hover: 224 66% 28%;
+    --primary-hover: 223 64% 30%;
 
-    --secondary: 210 40% 96%;
-    --secondary-foreground: 224 66% 34%;
+    --secondary: 216 33% 95%;
+    --secondary-foreground: 223 64% 35%;
 
-    --muted: 210 40% 98%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 215 38% 97%;
+    --muted-foreground: 215 16% 40%;
 
-    --accent: 224 55% 49%;
+    --accent: 224 52% 47%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
-    --ring: 224 66% 34%;
+    --border: 214 28% 89%;
+    --input: 214 28% 89%;
+    --ring: 223 64% 35%;
 
     --radius: 0.5rem;
 
-    --section-alt: 210 40% 98%;
+    --section-alt: 216 38% 96%;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -108,5 +108,10 @@
 
   h1, h2, h3, h4, h5, h6 {
     @apply tracking-tight;
+    letter-spacing: -0.015em;
+  }
+
+  section {
+    position: relative;
   }
 }
