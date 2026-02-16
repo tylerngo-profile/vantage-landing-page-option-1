@@ -21,7 +21,7 @@ const FinalCTA = () => {
           <Button
             variant="ghost"
             size="lg"
-            className="border border-primary/60 bg-transparent text-primary hover:bg-primary/10 hover:text-primary"
+            className="border border-primary/60 bg-transparent text-white hover:bg-primary/10 hover:text-white"
           >
             See an example hub
           </Button>
