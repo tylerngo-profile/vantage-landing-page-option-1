@@ -1,5 +1,11 @@
 import { Button } from "@/components/ui/button";
 
+const keyPoints = [
+  "We've seen what works: strong, consistent executive insight wins attention, trust, and revenue.",
+  "But most companies struggle because content is scattered, infrequent, and hard to sustain. Vantage fixes that.",
+  "A dedicated hub on your website, with a clear conversion journey, powered by a professional team that keeps content flowing.",
+];
+
 const CredibilitySection = () => {
   return (
     <section id="about" className="bg-background py-20">
@@ -10,30 +16,38 @@ const CredibilitySection = () => {
             <span className="text-[#5000ff]">.</span>
           </h2>
 
-          <div className="mt-6 space-y-4 text-base leading-relaxed text-muted-foreground">
-            <p>
+          <div className="mt-6 rounded-lg border border-border/90 bg-card p-5">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.08em] text-primary">
+              Why this matters
+            </p>
+            <p className="mt-2 text-xl leading-relaxed text-foreground md:text-2xl">
               Vantage is built by Profile, the award-winning thought leadership
               and PR agency.
             </p>
-            <p>
-              We've seen what works: strong, consistent executive insight wins
-              attention, trust, and revenue.
-            </p>
-            <p>
-              But most companies struggle because content is scattered,
-              infrequent, and hard to sustain. Vantage fixes that.
-            </p>
-            <p>
-              A dedicated hub on your website, with a clear conversion journey,
-              powered by a professional team that keeps content flowing.
-            </p>
-            <p className="font-medium text-foreground">
-              The best of both worlds: owned channel + done-for-you execution.
-            </p>
           </div>
 
+          <div className="mt-5 space-y-3">
+            {keyPoints.map((point) => (
+              <div
+                key={point}
+                className="rounded-lg border border-border/90 bg-card p-4 shadow-[0_1px_0_rgba(15,23,42,0.04)]"
+              >
+                <div className="flex items-start gap-3">
+                  <span className="mt-1 h-2.5 w-2.5 rounded-full bg-primary" />
+                  <p className="text-base leading-relaxed text-muted-foreground">
+                    {point}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <p className="mt-5 text-xl font-medium leading-relaxed text-foreground">
+            The best of both worlds: owned channel + done-for-you execution.
+          </p>
+
           <div className="mt-8">
-            <Button size="lg">
+            <Button size="lg" className="bg-primary text-white hover:bg-primary-hover">
               Book a demo and see how Vantage could look on your domain
             </Button>
           </div>
