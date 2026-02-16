@@ -5,7 +5,7 @@ const HeroSection = () => {
     <section className="border-b border-[#0f1b57] bg-[#040b3d] py-16 text-white md:py-24">
       <div className="container grid items-center gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:gap-12">
         <div className="text-center lg:text-left">
-          <p className="text-sm font-semibold uppercase tracking-[0.08em] text-white/70">
+          <p className="text-sm font-semibold uppercase tracking-[0.08em] text-white">
             Insight-led platform for in-house experts
           </p>
           <h1 className="mt-4 text-[2.1rem] font-semibold leading-[1.16] tracking-[-0.01em] text-white md:text-[2.55rem] lg:text-[2.95rem]">
@@ -14,7 +14,7 @@ const HeroSection = () => {
             in-house experts
             <span className="text-[#2f5cc8]">.</span>
           </h1>
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/80 lg:mx-0">
+          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white lg:mx-0">
             Vantage houses insight-led content for your internal experts, with
             done-for-you creation, newsletter sign-up, and analytics built in.
           </p>
