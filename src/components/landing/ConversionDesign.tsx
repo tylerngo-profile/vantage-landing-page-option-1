@@ -17,7 +17,7 @@ const points = [
 
 const ConversionDesign = () => {
   return (
-    <section className="bg-background py-20">
+    <section className="subtle-brand-bg bg-background py-20">
       <div className="container grid items-start gap-12 lg:grid-cols-[1.1fr_0.9fr]">
         <div className="lg:order-2">
           <h2 className="text-2xl font-bold text-foreground md:text-3xl">

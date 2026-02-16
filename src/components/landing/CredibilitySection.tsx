@@ -21,7 +21,7 @@ const points = [
 
 const CredibilitySection = () => {
   return (
-    <section id="about" className="bg-background py-20">
+    <section id="about" className="subtle-brand-bg bg-background py-20">
       <div className="container grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-start">
         <div className="max-w-3xl">
           <p className="text-xs font-semibold uppercase tracking-[0.08em] text-primary md:text-sm">

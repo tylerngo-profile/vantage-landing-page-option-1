@@ -27,7 +27,7 @@ const steps = [
 
 const ProcessTimeline = () => {
   return (
-    <section id="how-it-works" className="bg-background py-20">
+    <section id="how-it-works" className="subtle-brand-bg bg-background py-20">
       <div className="container">
         <h2 className="text-center text-2xl font-bold text-foreground md:text-3xl">
           Live in weeks<span className="text-[#5000ff]">.</span> Updated forever

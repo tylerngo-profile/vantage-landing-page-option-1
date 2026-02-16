@@ -8,7 +8,7 @@ const items = [
 
 const ChecklistSection = () => {
   return (
-    <section className="bg-background py-20">
+    <section className="subtle-brand-bg bg-background py-20">
       <div className="container max-w-2xl">
         <h2 className="text-2xl font-bold text-foreground md:text-3xl">
           Consistent executive content, without chasing busy people

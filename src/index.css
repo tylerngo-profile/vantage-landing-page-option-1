@@ -115,3 +115,29 @@
     position: relative;
   }
 }
+
+@layer utilities {
+  .subtle-brand-bg {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+  }
+
+  .subtle-brand-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    background-image:
+      radial-gradient(circle at 68% 50%, rgba(80, 0, 255, 0.065) 0, rgba(80, 0, 255, 0.065) 3.5%, transparent 3.6%),
+      repeating-conic-gradient(from 0deg at 68% 50%, rgba(80, 0, 255, 0.05) 0deg 6deg, transparent 6deg 36deg);
+    opacity: 0.28;
+    transform: scale(1.15);
+  }
+
+  .subtle-brand-bg > * {
+    position: relative;
+    z-index: 1;
+  }
+}
