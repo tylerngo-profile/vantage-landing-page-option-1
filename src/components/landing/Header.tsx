@@ -10,9 +10,13 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
       <div className="container flex h-16 items-center justify-between">
-        <span className="text-xl font-bold tracking-tight text-foreground">
-          Vantage
-        </span>
+        <a href="#top" className="flex items-center" aria-label="Vantage home">
+          <img
+            src="/images/vantage-logo-dark.svg"
+            alt="Vantage"
+            className="h-7 w-auto"
+          />
+        </a>
 
         {/* Desktop nav */}
         <nav className="hidden items-center gap-8 md:flex">
