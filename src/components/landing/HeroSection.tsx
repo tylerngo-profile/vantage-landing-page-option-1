@@ -15,9 +15,19 @@ const HeroSection = () => {
             Vantage houses insight-led content for your internal experts, with
             done-for-you creation, newsletter sign-up, and analytics built in.
           </p>
-          <p className="mt-4 text-base font-medium text-foreground/80">
-            Launch in weeks. Publish consistently. Own the audience on your domain.
-          </p>
+          <div className="mt-5 flex flex-wrap items-center justify-center gap-3 lg:justify-start">
+            <span className="rounded-full bg-[#4f1dff] px-5 py-2.5 text-sm font-semibold text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.25)]">
+              Launch in weeks
+            </span>
+            <span className="rounded-full bg-[#4f1dff] px-5 py-2.5 text-sm font-semibold text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.25)]">
+              Publish consistently
+            </span>
+            <span className="rounded-full bg-[#4f1dff] px-5 py-2.5 text-sm font-semibold text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.25)]">
+              Own your audience
+            </span>
+          </div>
+
+          <p className="mt-2 text-sm text-muted-foreground">on your domain.</p>
 
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row lg:justify-start">
             <Button size="lg">Book a demo</Button>
